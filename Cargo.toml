@@ -2,6 +2,10 @@
 name = "mvd"
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/samuelevalperta/mvd"
+license = "MIT"
+description = "Lightweight CLI tool that moves the most recently added files from downloads to the working directory"
+categories = ["command-line-utilities"]
 
 [dependencies]
 clap = { version = "4.5.8", features = ["derive", "env"] }
