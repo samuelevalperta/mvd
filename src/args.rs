@@ -19,10 +19,6 @@ pub struct Args {
     #[arg(short = 'a')]
     pub all_files: bool,
 
-    /// Include folders
-    #[arg(short = 'r')]
-    pub include_folders: bool,
-
     /// Specify the source folder
     #[arg(short, long, env = "DOWNLOAD_DIR", default_value_t = default_download_dir())]
     pub source: String,
